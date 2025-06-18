@@ -107,8 +107,8 @@ for example in dataset:
     output_token_counts.append(output_tokens)
 
     # Print
-    print("\n📰 News:", news_text[:120], "...")
-    print("  True Category:", true_label)
+    print("\n News:", news_text[:120], "...")
+    print(" True Category:", true_label)
     print(" Prediction:", prediction)
 
 # Classification Metrics
