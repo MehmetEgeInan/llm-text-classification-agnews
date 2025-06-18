@@ -1,0 +1,16 @@
+# Use Unix-style (LF) line endings for Python files
+*.py text eol=lf
+
+# Treat Markdown files as text
+*.md text
+
+# Treat requirements file as text
+requirements.txt text
+
+# If you have image or binary files in the future
+*.png binary
+*.jpg binary
+
+# Exclude datasets or large files from GitHub language statistics
+*.csv linguist-detectable=false
+*.json linguist-detectable=false
